@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 import MainTitle from "@/components/MainTitle.vue";
 import NavigationButtons from "@/components/NavigationButtons.vue";
