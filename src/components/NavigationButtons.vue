@@ -1,9 +1,9 @@
 <template>
   <div class="buttons">
-    <a href="#" id="port-btn" @click="handleClick('d')">Деятельность</a>
-    <a href="#" id="proj-btn" style="margin-left: 5px" @click="handleClick('p')">Портфолио</a>
-    <a href="#" id="news-btn" style="margin-left: 80px" @click="handleClick('n')">Медиа</a>
-    <a href="#" id="media-btn" style="margin-left: 30px" @click="handleClick('k')">Контакты</a>
+    <a href="javascript:void(0);" id="port-btn" @click="handleClick('d')">Деятельность</a>
+    <a href="javascript:void(0);" id="proj-btn" style="margin-left: 5px" @click="handleClick('p')">Портфолио</a>
+    <a href="javascript:void(0);" id="news-btn" style="margin-left: 30%" @click="handleClick('n')">СМИ</a>
+    <a href="javascript:void(0);" id="media-btn" style="margin-left: 17px" @click="handleClick('k')">Контакты</a>
   </div>
 </template>
 
@@ -44,7 +44,7 @@ const handleClick = (type: string) => {
 
 a {
   color: #0D0D0D;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 300;
   text-decoration: none;
 }
@@ -52,4 +52,70 @@ a {
 a:hover {
   color: #F21905;
 }
+
+@media (min-width:280px)  { /* smartphones, iPhone, portrait 480x320 phones */
+
+  .buttons {
+    grid-gap: 40px;
+    margin-top: 60px;
+  }
+
+  a {
+    font-size: 22px;
+    font-weight: 450;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+
+}
+
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+  .buttons {
+    grid-gap: 85px;
+    margin-top: 150px;
+  }
+
+}
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  .buttons {
+    grid-gap: 100px;
+    margin-top: 150px;
+  }
+
+  a {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+  .buttons {
+    grid-gap: 200px;
+    margin-top: 200px;
+  }
+
+  a {
+    font-size: 40px;
+  }
+
+  a:hover {
+    color: #F21905;
+  }
+
+}
+
+
+
 </style>

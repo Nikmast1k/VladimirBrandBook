@@ -4,6 +4,7 @@
       <MainTitle></MainTitle>
       <NavigationButtons></NavigationButtons>
       <div class="arrow-down">↓</div>
+      <MyMobileBackground></MyMobileBackground>
     </div>
   </div>
 </template>
@@ -12,6 +13,7 @@
 
 import MainTitle from "@/components/MainTitle.vue";
 import NavigationButtons from "@/components/NavigationButtons.vue";
+import MyMobileBackground from "@/components/MyMobileBackground.vue";
 
 </script>
 
@@ -38,7 +40,7 @@ import NavigationButtons from "@/components/NavigationButtons.vue";
   display: flex;
   padding: 0;
   flex-direction: column;
-  margin-left: 42%;
+  margin-left: 40%;
   margin-top: 2%;
   justify-content: flex-start;
   align-items: center;
@@ -50,40 +52,90 @@ import NavigationButtons from "@/components/NavigationButtons.vue";
   align-items: center;
   justify-content: center;
   font-size: 85px;
-  margin-top: 150px;
+  margin-top: 200px;
   font-weight: 200;
   cursor: default;
 }
 
 
-/* Media */
+@media (min-width:280px)  { /* smartphones, iPhone, portrait 480x320 phones */
 
-/* DESKTOP */
+  .container {
+    background-image: none;
+  }
 
-@media (min-width: 1200px) {
+  .info-container {
+    margin-left: 0;
+  }
 
-}
+  .arrow-down {
+    display: none;
+  }
 
-/* TABLETS */
-
-@media (min-width: 992px) {
-
-}
-
-/* PHONES */
-
-@media (min-width: 768px) {
 
 }
 
-@media (min-width: 480px) {
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+
 
 }
 
-@media (min-width: 320px) {
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+  .container {
+    background-image: none;
+  }
+
+  .info-container {
+    margin-left: 15%;
+  }
+
+  .arrow-down {
+    display: none;
+  }
+
 
 }
 
-/* Media */
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  .container {
+    background-image: url('../public/vl2-no-back.png');
+  }
+
+  .info-container {
+    margin-left: 40%;
+  }
+
+  .arrow-down {
+    display: flex;
+  }
+
+}
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+
+
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+  .info-container {
+    margin-left: 40%;
+  }
+
+  .arrow-down {
+    margin-top: 150px;
+  }
+
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+}
 
 </style>

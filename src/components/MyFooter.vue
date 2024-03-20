@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="footer-text">
-      Владимир Овсепян © 2024 Все права защищены.
+      © 2024 Все права защищены.
     </div>
   </div>
 </template>
