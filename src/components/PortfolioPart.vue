@@ -1,6 +1,6 @@
 <template>
   <div class="container" id="projects_section">
-    <MyPartTitle text="Портфолио"></MyPartTitle>
+    <MyPartTitle text="Достижения"></MyPartTitle>
 
     <div class="info-container">
 
@@ -24,6 +24,16 @@
         <iframe src="https://vk.com/video_ext.php?oid=-38941736&id=456245883&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
 
+      <div class="item-container" style="margin-top: 85px; margin-bottom: 15px">
+        <h2 style="margin-bottom: 30px; width: 80%">Аудитория шоу <a href="https://vk.com/lvs_rus">"Люди в студии"</a> насчитывает более 150.000 зрителей</h2>
+        <iframe src="https://vk.com/video_ext.php?oid=-209174718&id=456239074&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="item-container" style="margin-top: 85px; margin-bottom: 15px">
+        <h2 style="margin-bottom: 30px"><a href="https://vk.com/fs_nfg">Фудшеринг</a> - поддержано более 5.000 тысяч, спасено более 5 тонн продуктов питания</h2>
+        <iframe src="https://vk.com/video_ext.php?oid=-186178357&id=456239057&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
+      </div>
+
 
     </div>
 
@@ -31,8 +41,6 @@
       <h2 style="margin-top: 70px">Амбассадор международной премии "МЫВМЕСТЕ" 2023 Г.</h2>
       <img src="../public/mi_vmeste.jpeg" style="width: 300px; height: 300px; margin-bottom: 20px; margin-top: 20px">
     </div>
-
-
 
 
   </div>
@@ -59,11 +67,17 @@
 .info-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
   margin-top: 10px;
 }
 
 .item-container {
-  margin: 70px 40px 15px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -91,6 +105,7 @@ h2 {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 10px;
+  width: 90%;
 }
 
 iframe {
@@ -108,7 +123,7 @@ img {
   justify-content: center;
   text-align: center;
   width: 90%;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 35px;
 }
 

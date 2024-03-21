@@ -1,7 +1,7 @@
 <template>
   <div class="buttons">
     <a href="javascript:void(0);" id="port-btn" @click="handleClick('d')">Деятельность</a>
-    <a href="javascript:void(0);" id="proj-btn" style="margin-left: 5px" @click="handleClick('p')">Портфолио</a>
+    <a href="javascript:void(0);" id="proj-btn" style="margin-left: 5px" @click="handleClick('p')">Достижения</a>
     <a href="javascript:void(0);" id="news-btn" style="margin-left: 30%" @click="handleClick('n')">СМИ</a>
     <a href="javascript:void(0);" id="media-btn" style="margin-left: 17px" @click="handleClick('k')">Контакты</a>
   </div>
