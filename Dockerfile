@@ -11,4 +11,4 @@ RUN mkdir /app
 COPY --from=build-stage /app/dist /app
 COPY vladimir-ovsepyan.ru.crt /etc/nginx/vladimir-ovsepyan.ru.crt
 COPY vladimir-ovsepyan.ru.key /etc/nginx/vladimir-ovsepyan.ru.key
-COPY http.nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/nginx.conf
