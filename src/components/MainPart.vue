@@ -32,7 +32,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   background-image: url('../public/vl2-no-back.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #D9D2D0;
+  background-color: #D9D2D0 ;
   border-bottom: 1px solid #0D0D0D;
 }
 
@@ -56,6 +56,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   font-weight: 200;
   cursor: default;
 }
+
 
 
 @media (min-width:280px)  { /* smartphones, iPhone, portrait 480x320 phones */
@@ -135,7 +136,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
     overflow: hidden;
   }
 
-
 }
+
 
 </style>

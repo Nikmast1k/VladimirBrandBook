@@ -1,6 +1,6 @@
 <template>
   <div class="back">
-    <img src="../public/vl2-no-back-mob.png">
+    <img src="../public/vladimir_back_mob.png">
   </div>
 </template>
 
