@@ -68,7 +68,7 @@
   @media (prefers-color-scheme: light) {
 
     * {
-      color: #0D0D0D;
+      color: var(--text-color);
     }
 
   }

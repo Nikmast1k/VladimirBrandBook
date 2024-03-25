@@ -134,12 +134,12 @@ h3 {
 @media (prefers-color-scheme: light) {
 
   * {
-    color: #0D0D0D;
-    background-color: #D9D2D0;
+    color: var(--text-color);
+    background-color: var(--background-color);
   }
 
   a {
-    color: blue;
+    color: var(--urls-color);
   }
 
 }

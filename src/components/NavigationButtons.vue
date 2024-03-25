@@ -37,7 +37,7 @@ const handleClick = (type: string) => {
 <style scoped>
 
 * {
-  color: #D9D2D0;
+  color: var(--text-color);
 }
 
 .buttons {
@@ -48,7 +48,7 @@ const handleClick = (type: string) => {
 }
 
 a {
-  color: white;
+  color: var(--text-color);
   font-size: 40px;
   font-weight: 300;
   text-decoration: none;
@@ -125,11 +125,15 @@ a:hover {
 @media (prefers-color-scheme: light) {
 
   * {
-    color: #0D0D0D;
+    color: var(--text-color);
   }
 
   a {
-    color: #0D0D0D;
+    color: var(--text-color);
+  }
+
+  a:hover {
+    color: var(--text-color);
   }
 
 }

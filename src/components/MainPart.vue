@@ -145,12 +145,12 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
 @media (prefers-color-scheme: light) {
 
   * {
-    color: #0D0D0D;
+    color: var(--text-color);
   }
 
   .container {
-    background-color: #D9D2D0;
-    border-bottom: 1px solid #0D0D0D;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--text-color);
   }
 
 

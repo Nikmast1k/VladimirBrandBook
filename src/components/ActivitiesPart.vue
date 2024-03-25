@@ -243,25 +243,25 @@ span {
 @media (prefers-color-scheme: light) {
 
   * {
-    color: #0D0D0D;
-    background-color: #D9D2D0;
+    color: var(--text-color);
+    background-color: var(--background-color);
   }
 
   .info-container {
-    border-bottom: 1px solid #0D0D0D;
+    border-bottom: 1px solid var(--text-color);
   }
 
 
   .spacepc-logo-1 {
-    display: flex;
+    display: var(--logo-one);
   }
 
   .spacepc-logo-2 {
-    display: none;
+    display: var(--logo-two);
   }
 
   .item-container a {
-    color: blue;
+    color: var(--urls-color);
   }
 
 }
