@@ -37,7 +37,7 @@ const handleClick = (type: string) => {
 <style scoped>
 
 * {
-  color: var(--text-color);
+  color: #D9D2D0;
 }
 
 .buttons {
@@ -48,7 +48,7 @@ const handleClick = (type: string) => {
 }
 
 a {
-  color: var(--text-color);
+  color: #D9D2D0;
   font-size: 40px;
   font-weight: 300;
   text-decoration: none;
