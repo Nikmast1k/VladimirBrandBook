@@ -45,8 +45,8 @@
 
       <div class="item-container" id="keddo-item-container">
         <img src="../public/step_logo.png" style="width: 120px; height: 120px">
-        <h2 style="margin-top: 15px; margin-bottom: 0">Амбассадор сети обувных магазинов</h2>
-        <h2>"STEP | RIEKER | BADEN | KEDDO"</h2>
+        <h2 style="margin-top: 15px; margin-bottom: 0">Руководитель сети обувных магазинов</h2>
+        <h2>"STEP | RIEKER | BADEN"</h2>
         <div>
           <a href="https://vk.com/srbk.hmao">Вконтакте</a>
         </div>

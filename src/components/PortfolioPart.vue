@@ -68,6 +68,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
+  width: 100%;
 }
 
 .item-container {
@@ -133,6 +134,7 @@ img {
   .info-container {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 80px;
+    width: 100%;
   }
 
   h2 {
@@ -151,8 +153,8 @@ img {
   }
 
   iframe {
-    width: 340px;
-    height: 200px;
+    width: 320px;
+    height: 180px;
   }
 
   .item-container-last-item {
