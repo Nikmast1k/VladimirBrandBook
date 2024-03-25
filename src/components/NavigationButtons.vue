@@ -3,7 +3,7 @@
     <a href="javascript:void(0);" id="port-btn" @click="handleClick('d')">Деятельность</a>
     <a href="javascript:void(0);" id="proj-btn" style="margin-left: 5px" @click="handleClick('p')">Достижения</a>
     <a href="javascript:void(0);" id="news-btn" style="margin-left: 30%" @click="handleClick('n')">СМИ</a>
-    <a href="javascript:void(0);" id="media-btn" style="margin-left: 17px" @click="handleClick('k')">Контакты</a>
+    <a href="javascript:void(0);" id="media-btn" style="margin-left: 35px" @click="handleClick('k')">Контакты</a>
   </div>
 </template>
 
@@ -35,15 +35,20 @@ const handleClick = (type: string) => {
 </script>
 
 <style scoped>
+
+* {
+  color: #D9D2D0;
+}
+
 .buttons {
   margin-top: 200px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 200px;
+  grid-gap: 160px;
 }
 
 a {
-  color: #0D0D0D;
+  color: white;
   font-size: 40px;
   font-weight: 300;
   text-decoration: none;
@@ -102,7 +107,7 @@ a:hover {
 @media (min-width:1281px) { /* hi-res laptops and desktops */
 
   .buttons {
-    grid-gap: 200px;
+    grid-gap: 160px;
     margin-top: 200px;
   }
 
@@ -112,6 +117,19 @@ a:hover {
 
   a:hover {
     color: #F21905;
+  }
+
+}
+
+
+@media (prefers-color-scheme: light) {
+
+  * {
+    color: #0D0D0D;
+  }
+
+  a {
+    color: #0D0D0D;
   }
 
 }

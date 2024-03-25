@@ -3,18 +3,17 @@
     <MyPartTitle text="Контакты"></MyPartTitle>
 
     <div class="info-container">
-      <h2>Владимир Овсепян</h2>
       <div class="item-container">
         <h3> <a href="https://vk.com/vldmr_ovs">Вконтакте</a> <span> | </span>
           <a href="https://t.me/vladimir_ovsepyan">Телеграм</a> </h3>
       </div>
 
       <div class="item-container">
-        <h3>Почта <a href="mailto:ovs2006@list.ru">ovs2006@list.ru</a></h3>
+        <h3>Почта: <a href="mailto:ovs2006@list.ru">ovs2006@list.ru</a></h3>
       </div>
 
       <div class="item-container">
-        <h3>Телефон <a href="tel:+79224015185">+79224015185</a></h3>
+        <h3>Телефон: <a href="tel:+79224015185">+79224015185</a></h3>
       </div>
 
 
@@ -27,9 +26,10 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-  background-color: #D9D2D0;
+  background-color: #0D0D0D;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  color: #D9D2D0;
 }
 
 .container {
@@ -39,7 +39,6 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  border-top: 1px solid #0D0D0D;
 }
 
 .info-container {
@@ -48,8 +47,8 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 150px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .item-container {
@@ -70,6 +69,7 @@ h2 {
 a {
   font-size: 30px;
   text-decoration: none;
+  color: dodgerblue;
 }
 
 a:hover {
@@ -129,6 +129,21 @@ h3 {
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
+@media (prefers-color-scheme: light) {
+
+  * {
+    color: #0D0D0D;
+    background-color: #D9D2D0;
+  }
+
+  a {
+    color: blue;
+  }
+
+}
+
 
 </style>
 <script setup lang="ts">

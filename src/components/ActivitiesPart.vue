@@ -53,7 +53,8 @@
       </div>
 
       <div class="item-container" id="spacepc-item-container">
-        <img src="../public/logotip.png" style="width: 200px; height: 200px">
+        <img src="../public/logotip.png" class="spacepc-logo-1">
+        <img src="../public/space_pc_black_logo.png" class="spacepc-logo-2">
         <h2 style="margin-top: -30px; margin-bottom: 0">Основатель сервиса</h2>
         <h2>"SpacePC"</h2>
         <div style="margin-top: 0">
@@ -70,9 +71,10 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-  background-color: #D9D2D0;
+  background-color: #0D0D0D;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  color: #D9D2D0;
 }
 
 .container {
@@ -88,6 +90,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 60px;
+  border-bottom: 1px solid #D9D2D0;
+  width: 100%;
 }
 
 .item-container {
@@ -97,7 +101,7 @@
 .item-container a {
   font-size: 25px;
   text-decoration: none;
-  color: blue;
+  color: dodgerblue;
 }
 
 .item-container a:hover {
@@ -121,7 +125,17 @@ span {
   font-size: 30px;
   font-weight: 300;
 }
+.spacepc-logo-1 {
+  width: 200px;
+  height: 200px;
+  display: none;
+}
 
+.spacepc-logo-2 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+}
 
 
 
@@ -154,10 +168,12 @@ span {
 
   #spacepc-item-container {
     margin-top: 40px;
+    margin-bottom: 45px;
   }
 
   #keddo-item-container {
     margin-top: 80px;
+    margin-bottom: 45px;
   }
 
 }
@@ -222,6 +238,34 @@ span {
   }
 
 }
+
+
+@media (prefers-color-scheme: light) {
+
+  * {
+    color: #0D0D0D;
+    background-color: #D9D2D0;
+  }
+
+  .info-container {
+    border-bottom: 1px solid #0D0D0D;
+  }
+
+
+  .spacepc-logo-1 {
+    display: flex;
+  }
+
+  .spacepc-logo-2 {
+    display: none;
+  }
+
+  .item-container a {
+    color: blue;
+  }
+
+}
+
 
 </style>
 <script setup lang="ts">

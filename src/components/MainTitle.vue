@@ -1,13 +1,19 @@
 <template>
   <div class="name-and-description">
     <h1>Владимир Овсепян</h1>
-    <h3>Журналист, предприниматель, филантроп</h3>
+    <h3>журналист, предприниматель, филантроп</h3>
   </div>
 </template>
 
 <style scoped>
+
+* {
+  color: #D9D2D0;
+}
+
 .name-and-description {
   text-align: center;
+  margin-top: 100px;
 }
 
 h1 {
@@ -31,6 +37,10 @@ h3 {
   h3 {
     font-size: 20px;
     font-weight: 350;
+  }
+
+  .name-and-description {
+    margin-top: 10px
   }
 
 }
@@ -57,6 +67,10 @@ h3 {
     font-size: 25px;
   }
 
+  .name-and-description {
+    margin-top: 100px;
+  }
+
 }
 
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
@@ -74,7 +88,13 @@ h3 {
 }
 
 
+@media (prefers-color-scheme: light) {
 
+  * {
+    color: #0D0D0D;
+  }
+
+}
 
 
 </style>

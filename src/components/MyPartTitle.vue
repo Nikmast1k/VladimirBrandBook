@@ -14,10 +14,16 @@
 </script>
 
 <style scoped>
+
+  * {
+    color: #D9D2D0;
+  }
+
   .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
   }
 
 
@@ -54,6 +60,15 @@
     h1 {
       font-size: 55px;
       font-weight: 350;
+    }
+
+  }
+
+
+  @media (prefers-color-scheme: light) {
+
+    * {
+      color: #0D0D0D;
     }
 
   }

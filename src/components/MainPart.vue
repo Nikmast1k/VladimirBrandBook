@@ -23,6 +23,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
 * {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  color: white;
 }
 
 .container {
@@ -32,9 +33,10 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   background-image: url('../public/vl2-no-back.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #D9D2D0 ;
-  border-bottom: 1px solid #0D0D0D;
+  background-color: #0D0D0D;
+  border-bottom: 1px solid #D9D2D0;
 }
+
 
 .info-container {
   display: flex;
@@ -51,8 +53,9 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 85px;
+  font-size: 105px;
   margin-top: 200px;
+  margin-bottom: 90px;
   font-weight: 200;
   cursor: default;
 }
@@ -137,6 +140,22 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   }
 
 }
+
+
+@media (prefers-color-scheme: light) {
+
+  * {
+    color: #0D0D0D;
+  }
+
+  .container {
+    background-color: #D9D2D0;
+    border-bottom: 1px solid #0D0D0D;
+  }
+
+
+}
+
 
 
 </style>

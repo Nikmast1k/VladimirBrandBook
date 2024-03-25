@@ -7,6 +7,11 @@
 </template>
 
 <style scoped>
+
+* {
+  color: #D9D2D0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -22,4 +27,12 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+
+@media (prefers-color-scheme: light ) {
+  * {
+    color: #0D0D0D;
+  }
+}
+
 </style>

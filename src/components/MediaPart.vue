@@ -52,9 +52,10 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-  background-color: #D9D2D0;
+  background-color: #0D0D0D;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  color: #D9D2D0;
 }
 
 .container {
@@ -64,7 +65,7 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  border-top: 1px solid #0D0D0D;
+  margin-top: -5px;
 }
 
 .playlist-links-container {
@@ -78,6 +79,11 @@
 
 .playlist-links-container a {
   font-size: 25px;
+  color: dodgerblue;
+}
+
+.playlist-links-container a:hover {
+  color: #F21905;
 }
 
 .playlist-links-container h2 {
@@ -96,6 +102,7 @@
   grid-gap: 120px;
   margin-top: 45px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .item-container {
@@ -249,6 +256,22 @@ h3 {
   }
 
 }
+
+
+@media (prefers-color-scheme: light) {
+
+  * {
+    color: #0D0D0D;
+    background-color: #D9D2D0;
+  }
+
+  .playlist-links-container a {
+    color: blue;
+  }
+
+
+}
+
 
 </style>
 <script setup lang="ts">

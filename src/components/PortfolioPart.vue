@@ -14,22 +14,22 @@
         <iframe src="https://vk.com/video_ext.php?oid=-79091202&id=456246444&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
 
-      <div class="item-container" style="margin-top: 85px">
+      <div class="item-container">
         <h2 style="margin-bottom: 30px">Занесён на доску почёта «Молодёжь — гордость Нефтеюганска» 2022 г.</h2>
         <iframe src="https://vk.com/video_ext.php?oid=-38941736&id=456248922&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
 
-      <div class="item-container" style="margin-top: 85px;">
+      <div class="item-container">
         <h2 style="margin-bottom: 30px">Победитель гранта губернатора Югры для физ. лиц 2020 г.</h2>
         <iframe src="https://vk.com/video_ext.php?oid=-38941736&id=456245883&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
 
-      <div class="item-container" style="margin-top: 85px; margin-bottom: 15px">
+      <div class="item-container" style="margin-bottom: 15px">
         <h2 style="margin-bottom: 30px; width: 80%">Аудитория шоу <a href="https://vk.com/lvs_rus">"Люди в студии"</a> насчитывает более 150.000 зрителей</h2>
         <iframe src="https://vk.com/video_ext.php?oid=-209174718&id=456239074&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
 
-      <div class="item-container" style="margin-top: 85px; margin-bottom: 15px">
+      <div class="item-container" style="margin-bottom: 15px">
         <h2 style="margin-bottom: 30px"><a href="https://vk.com/fs_nfg">Фудшеринг</a> - поддержано более 5.000 тысяч, спасено более 5 тонн продуктов питания</h2>
         <iframe src="https://vk.com/video_ext.php?oid=-186178357&id=456239057&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
@@ -39,7 +39,7 @@
 
     <div class="item-container-last-item">
       <h2 style="margin-top: 70px">Амбассадор международной премии "МЫВМЕСТЕ" 2023 Г.</h2>
-      <img src="../public/mi_vmeste.jpeg" style="width: 300px; height: 300px; margin-bottom: 20px; margin-top: 20px">
+      <img src="../public/mi_vmeste.jpeg" style="width: 300px; height: 300px; margin-bottom: 70px; margin-top: 20px">
     </div>
 
 
@@ -49,9 +49,10 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-  background-color: #D9D2D0;
+  background-color: #0D0D0D;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  color: #D9D2D0;
 }
 
 .container {
@@ -61,18 +62,16 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  border-top: 1px solid #0D0D0D;
 }
 
 .info-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
-  margin-top: 10px;
 }
 
 .item-container {
-  margin-top: 70px;
+  margin-top: 85px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +83,7 @@
 .item-container a {
   font-size: 20px;
   text-decoration: none;
-  color: blue;
+  color: dodgerblue;
 }
 
 .item-container a:hover {
@@ -94,7 +93,7 @@
 a {
   font-size: 20px;
   text-decoration: none;
-  color: blue;
+  color: dodgerblue;
 }
 
 a:hover {
@@ -122,9 +121,10 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin-top: 70px;
   margin-bottom: 35px;
+  border-bottom: 1px solid #D9D2D0;
 }
 
 
@@ -132,11 +132,22 @@ img {
 
   .info-container {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 80px;
   }
 
   h2 {
     font-size: 13px;
     font-weight: 550;
+  }
+
+  a {
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .item-container a {
+    font-size: 16px;
+    font-weight: 600;
   }
 
   iframe {
@@ -155,6 +166,10 @@ img {
 
   a:hover {
     color: blue;
+  }
+
+  .item-container {
+    margin-top: 5px;
   }
 
 }
@@ -187,6 +202,10 @@ img {
     margin-top: 50px;
   }
 
+  .item-container a {
+    font-size: 20px;
+  }
+
 }
 
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
@@ -207,6 +226,29 @@ img {
   }
 
 }
+
+
+@media (prefers-color-scheme: light) {
+
+  * {
+    color: #0D0D0D;
+    background-color: #D9D2D0;
+  }
+
+  .item-container-last-item {
+    border-bottom: 1px solid #0D0D0D;
+  }
+
+  a {
+    color: blue;
+  }
+
+  .item-container a {
+    color: blue;
+  }
+
+}
+
 
 </style>
 <script setup lang="ts">
