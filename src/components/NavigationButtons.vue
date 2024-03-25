@@ -71,7 +71,7 @@ a:hover {
   }
 
   a:hover {
-    color: black;
+    color: #D9D2D0;
   }
 
 
