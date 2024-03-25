@@ -95,6 +95,8 @@
 
 .item-container {
   margin: 70px 40px 15px;
+  display: flex;
+  text-align: center;
 }
 
 .item-container a {
