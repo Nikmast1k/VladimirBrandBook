@@ -30,7 +30,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   width: 100%;
   height: 100%;
   display: flex;
-  background-image: url('../public/vl2-no-back.png');
+  background-image: url('../public/v-no_back-pc.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #0D0D0D;
@@ -42,7 +42,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   display: flex;
   padding: 0;
   flex-direction: column;
-  margin-left: 40%;
+  margin-left: 50%;
   margin-top: 2%;
   justify-content: flex-start;
   align-items: center;
@@ -92,7 +92,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
   }
 
   .info-container {
-    margin-left: 15%;
+    margin-left: 20%;
   }
 
   .arrow-down {
@@ -105,11 +105,11 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
 
   .container {
-    background-image: url('../public/vl2-no-back.png');
+    background-image: url('../public/v-no_back-pc.png');
   }
 
   .info-container {
-    margin-left: 40%;
+    margin-left: 50%;
   }
 
   .arrow-down {
@@ -127,7 +127,7 @@ import MyMobileBackground from "@/components/MyMobileBackground.vue";
 @media (min-width:1281px) { /* hi-res laptops and desktops */
 
   .info-container {
-    margin-left: 40%;
+    margin-left: 45%;
   }
 
   .arrow-down {

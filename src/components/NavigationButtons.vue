@@ -82,7 +82,7 @@ a:hover {
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
   .buttons {
-    grid-gap: 85px;
+    grid-gap: 70px;
     margin-top: 150px;
   }
 
@@ -91,14 +91,16 @@ a:hover {
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
 
   .buttons {
-    grid-gap: 100px;
+    grid-gap: 50px;
     margin-top: 150px;
   }
 
   a {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
   }
+
+
 
 }
 
@@ -107,12 +109,12 @@ a:hover {
 @media (min-width:1281px) { /* hi-res laptops and desktops */
 
   .buttons {
-    grid-gap: 160px;
+    grid-gap: 120px;
     margin-top: 200px;
   }
 
   a {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   a:hover {

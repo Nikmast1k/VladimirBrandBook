@@ -14,7 +14,7 @@
         <img src="../public/fs_logo.png" style="width: 100px; height: 100px">
         <h2 style="margin-top: 15px; margin-bottom: 10px">Директор АНО СПГ "Фудшеринг"</h2>
         <div>
-          <a href="https://www.youtube.com/playlist">YouTube</a> <span> | </span>
+          <a href="https://youtube.com/playlist?list=PLjRAICCfK2qwSu8xe67cp5cMK8NYG6b2Y&si=pcuWMGMcc9O1K7Y9">YouTube</a> <span> | </span>
           <a href="https://vk.com/fs_nfg">Вконтакте</a>
         </div>
       </div>
@@ -47,7 +47,7 @@
         <img src="../public/step_logo.png" style="width: 120px; height: 120px">
         <h2 style="margin-top: 15px; margin-bottom: 0">Руководитель сети обувных магазинов "STEP | RIEKER | BADEN"</h2>
         <div>
-          <a href="https://vk.com/srbk.hmao">Вконтакте</a>
+          <a href="https://vk.com/srb.hmao">Вконтакте</a>
         </div>
       </div>
 

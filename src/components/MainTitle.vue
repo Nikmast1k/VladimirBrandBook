@@ -50,7 +50,7 @@ h3 {
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 
   h3 {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 350;
   }
 
@@ -78,7 +78,7 @@ h3 {
 @media (min-width:1281px) { /* hi-res laptops and desktops */
 
   h1 {
-    font-size: 75px;
+    font-size: 70px;
   }
 
   h3 {
