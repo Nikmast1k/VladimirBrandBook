@@ -15,7 +15,8 @@
         <h2 style="margin-top: 15px; margin-bottom: 10px">Директор АНО СПГ "Фудшеринг"</h2>
         <div>
           <a href="https://youtube.com/playlist?list=PLjRAICCfK2qwSu8xe67cp5cMK8NYG6b2Y&si=pcuWMGMcc9O1K7Y9">YouTube</a> <span> | </span>
-          <a href="https://vk.com/fs_nfg">Вконтакте</a>
+          <a href="https://vk.com/fs_nfg">Вконтакте</a> <span> | </span>
+          <a href="https://www.instagram.com/fs_hmao_yanao?igsh=dnU0d2gwZTk5Yng1">Инстаграм</a>
         </div>
       </div>
 
@@ -27,6 +28,7 @@
           <a href="https://vk.com/lvs_rus">Вконтакте</a> <span> | </span>
           <a href="https://rutube.ru/plst/326407">RuTube</a> <span> | </span>
           <a href="https://t.me/lvs_rus">Телеграм</a> <span> | </span>
+          <a href="https://www.instagram.com/lvs_rus?igsh=MWZuNDB1MmlqZDZpbg==">Инстаграм</a> <span> | </span>
           <a href="https://dzen.ru/suite/294ff70c-ce58-4c9d-9f18-8dd48583dd1a?share_to=link&clckid=d7882c4a">Дзен</a>
         </div>
 
@@ -47,7 +49,8 @@
         <img src="../public/step_logo.png" style="width: 120px; height: 120px">
         <h2 style="margin-top: 15px; margin-bottom: 0">Руководитель сети обувных магазинов "STEP | RIEKER | BADEN"</h2>
         <div>
-          <a href="https://vk.com/srb.hmao">Вконтакте</a>
+          <a href="https://vk.com/srb.hmao">Вконтакте</a> <span> | </span>
+          <a href="https://www.instagram.com/srb.hmao?igsh=dDVodDJvY3R1aHhn">Инстаграм</a>
         </div>
       </div>
 
@@ -57,7 +60,8 @@
         <h2 style="margin-top: -30px; margin-bottom: 0">Основатель сервиса</h2>
         <h2>"SpacePC"</h2>
         <div style="margin-top: 0">
-          <a href="https://vk.com/spacepcnfg">Вконтакте</a>
+          <a href="https://vk.com/spacepcnfg">Вконтакте</a> <span> | </span>
+          <a href="https://www.instagram.com/spacepc.nfg?igsh=bXMxZDZybm5oaDBw">Инстаграм</a>
         </div>
       </div>
 

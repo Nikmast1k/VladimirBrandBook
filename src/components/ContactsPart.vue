@@ -5,7 +5,9 @@
     <div class="info-container">
       <div class="item-container">
         <h3> <a href="https://vk.com/vldmr_ovs">Вконтакте</a> <span> | </span>
-          <a href="https://t.me/vladimir_ovsepyan">Телеграм</a> </h3>
+          <a href="https://t.me/vladimir_ovsepyan">Телеграм</a> <span> | </span>
+          <a href="https://www.instagram.com/vldmr_ovs?igsh=MXRjdzJibWQxNmFycg==">Инстаграм</a>
+        </h3>
       </div>
 
       <div class="item-container">

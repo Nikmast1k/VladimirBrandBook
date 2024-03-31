@@ -30,7 +30,7 @@
       </div>
 
       <div class="item-container" style="margin-bottom: 15px">
-        <h2 style="margin-bottom: 30px"><a href="https://vk.com/fs_nfg">Фудшеринг</a> - поддержано более 5.000 тысяч, спасено более 5 тонн продуктов питания</h2>
+        <h2 style="margin-bottom: 30px"><a href="https://vk.com/fs_nfg">Фудшеринг</a> - поддержано более 5.000 тысяч человек, спасено более 5 тонн продуктов питания</h2>
         <iframe src="https://vk.com/video_ext.php?oid=-186178357&id=456239057&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
 
