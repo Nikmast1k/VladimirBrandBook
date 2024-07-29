@@ -25,7 +25,7 @@
       </div>
 
       <div class="item-container" style="margin-bottom: 15px">
-        <h2 style="margin-bottom: 30px; width: 80%">Аудитория шоу <a href="https://vk.com/lvs_rus">"Люди в студии"</a> насчитывает более 150.000 зрителей</h2>
+        <h2 style="margin-bottom: 30px; width: 80%">Просмотры шоу <a href="https://vk.com/lvs_rus">"Люди в студии"</a> превышают 200 тысяч</h2>
         <iframe src="https://vk.com/video_ext.php?oid=-209174718&id=456239074&hd=1" width="640" height="360" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
       </div>
 
